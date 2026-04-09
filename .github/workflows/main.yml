@@ -18,7 +18,8 @@ jobs:
 
       - name: Build Archive
         run: |
-          # تأكد من استبدال Feather باسم الـ Target الصحيح في Xcode
+          # استبدل FolderName باسم المجلد الذي يحتوي على ملفات المشروع (غالباً Feather-2.7.0)
+          cd "Feather-2.7.0" 
           xcodebuild archive \
             -scheme Feather \
             -archivePath build/Appmasster.xcarchive \
