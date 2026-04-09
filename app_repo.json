@@ -1,0 +1,14 @@
+{
+  "name": "AppMaster Store",
+  "identifier": "com.appmastr.repo",
+  "apps": [
+    {
+      "name": "E-Sign",
+      "bundleIdentifier": "com.esign.app",
+      "version": "5.0.2",
+      "downloadURL": "https://example.com/esign.ipa",
+      "iconURL": "https://example.com/esign_icon.png",
+      "description": "تطبيق توقيع الملفات الشهير."
+    }
+  ]
+}
